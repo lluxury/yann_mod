@@ -106,16 +106,16 @@ go build
 // 主要版本可以打破向后兼容性
 
 
-vi yann_mod.go 
-vi go.mod 
-    module github.com/lluxury/yann_mod/v2
+vi yann_mod.go <br>
+vi go.mod <br>
+    module github.com/lluxury/yann_mod/v2<br>
 
-git commit yann_mod.go -m "Change Hi to allow multilang"
-git checkout -b v2 
-echo "module github.com/lluxury/yann_mod/v2" > go.mod
-git commit go.mod -m "Bump version to v2"
-git tag v2.0.0
-git push --tags origin v2 
+git commit yann_mod.go -m "Change Hi to allow multilang"<br>
+git checkout -b v2 <br>
+echo "module github.com/lluxury/yann_mod/v2" > go.mod<br>
+git commit go.mod -m "Bump version to v2"<br>
+git tag v2.0.0<br>
+git push --tags origin v2 <br>
 
 
 // go get -u 不会把项目使用的包的版本升级到 2.0.0
