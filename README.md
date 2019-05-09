@@ -30,26 +30,26 @@ vi yann_mod.go
 
 // 手动建库?
 
-git init
-git add *
-git commit -am "First commit"
-git remote add origin https://github.com/lluxury/yann_mod.git
-git push -u origin master
+git init<br>
+git add *<br>
+git commit -am "First commit"<br>
+git remote add origin https://github.com/lluxury/yann_mod.git<br>
+git push -u origin master<br>
 
-go get github.com/lluxury/yann_mod
+go get github.com/lluxury/yann_mod<br>
 
 // Go 根据代码仓库的标签来确定版本
 // Go 会获取代码仓库里面设置好标签的最新的版本
 
 
 // 制作发布版本
-git tag v1.0.0
-git push --tags
+git tag v1.0.0<br>
+git push --tags<br>
 
 
 // 创建一个叫 v1 的分支
-git checkout -b v1
-git push -u origin v1
+git checkout -b v1<br>
+git push -u origin v1<br>
 
 
 // git push -u origin master 上面命令将本地的master分支推送到origin主机，同时指定origin为默认主机<br>
