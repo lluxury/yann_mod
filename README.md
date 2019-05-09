@@ -1,4 +1,3 @@
-# yann_mod
 
 // 需要go 1.11
 
@@ -53,7 +52,7 @@ git checkout -b v1
 git push -u origin v1
 
 
-// git push -u origin master 上面命令将本地的master分支推送到origin主机，同时指定origin为默认主机
+// git push -u origin master 上面命令将本地的master分支推送到origin主机，同时指定origin为默认主机<br>
 // 后面就可以不加任何参数使用git push了
 
 //  不带任何参数的git push，默认只推送当前分支，这叫做simple方式
@@ -71,7 +70,7 @@ go build
 // module mod
 // require github.com/lluxury/yann_mod v1.0.0
 
-// github.com/lluxury/yann_mod v1.0.0 h1:9EdH0EArQ/rkpss9Tj8gUnwx3w5p0jkzJrd5tRAhxnA=
+// github.com/lluxury/yann_mod v1.0.0 h1:9EdH0EArQ/rkpss9Tj8gUnwx3w5p0jkzJrd5tRAhxnA= <br>
 // github.com/lluxury/yann_mod v1.0.0/go.mod h1:UVhi5McON9ZLc5kl5iN2bTXlL6ylcxE9VInV71RrlO8=
 
 // 用过的包都会记录进去
